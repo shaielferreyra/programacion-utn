@@ -1,5 +1,5 @@
 import React from "react";
-import "./person1.css";
+import "./global1.css";
 
 function Welcome() {
   return (
