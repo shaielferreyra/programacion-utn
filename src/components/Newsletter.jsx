@@ -1,5 +1,5 @@
 import React from "react";
-import "./person3.css";
+import "./global3.css";
 
 function Newsletter() {
   return (
