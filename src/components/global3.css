@@ -1,0 +1,81 @@
+/* ==== PERSONA 3 ==== */
+#services {
+  padding: 40px 20px;
+  background-color: #fff3f3;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#services ul {
+  list-style-type: circle;
+  margin-left: 25px;
+  font-size: 1.1em;
+}
+
+.testimonials {
+  padding: 40px 20px;
+  background-color: #fef9f9;
+  border-left: 6px solid #e63946;
+  border-radius: 10px;
+  margin: 20px;
+  font-style: italic;
+  font-size: 1.1em;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.newsletter {
+  padding: 40px 20px;
+  background-color: #ffe5e5;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #e63946;
+}
+/* Responsivo básico */
+@media (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #gallery div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  #contact form input,
+  #contact form textarea {
+    width: 90%;
+  }
+}
