@@ -1,0 +1,76 @@
+/* ==== PERSONA 1 ==== */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #e63946;
+}
+
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e63946, #f1faee);
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+/* Responsivo básico */
+@media (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #gallery div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  #contact form input,
+  #contact form textarea {
+    width: 90%;
+  }
+}
