@@ -1,0 +1,95 @@
+/* ==== PERSONA 2 ==== */
+#about {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#gallery {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gallery h2 {
+  margin-bottom: 20px;
+}
+
+#gallery div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#gallery img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  padding: 40px 20px;
+  background-color: #f1faee;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+#contact button {
+  padding: 12px 25px;
+  background-color: #e63946;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact button:hover {
+  background-color: #d62828;
+}
+/* Responsivo básico */
+@media (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #gallery div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  #contact form input,
+  #contact form textarea {
+    width: 90%;
+  }
+}
